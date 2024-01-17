@@ -6,44 +6,44 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
 
     // Or if using `src` directory:
-    './src/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     container: {
       padding: {
-        DEFAULT: '15px',
-      },
+        DEFAULT: '15px'
+      }
     },
     screens: {
       sm: '640px',
       md: '768px',
       lg: '960px',
-      xl: '1280px',
+      xl: '1280px'
     },
     extend: {
       fontFamily: {
         bangers: [`var(--font-bangers)`, 'sans-serif'],
         quicksand: [`var(--font-quicksand)`, 'sans-serif'],
-        robotoCondensed: [`var(--font-robotoCondensed)`, 'sans-serif'],
+        robotoCondensed: [`var(--font-robotoCondensed)`, 'sans-serif']
       },
       colors: {
         primary: '#d1411e',
         secondary: '#ffa323',
         tertiary: '#331812',
         black: '#231714',
-        orange: '#FF7A30',
+        orange: '#FF7A30'
       },
       backgroundImage: {
-        pattern: "url('/pattern.png')",
+        pattern: "url('/pattern.png')"
       },
       backgroundSize: {
-        'size-200': '200% 200%',
+        'size-200': '200% 200%'
       },
       backgroundPosition: {
         'pos-0': '0% 0%',
-        'pos-100': '100% 100%',
-      },
-    },
+        'pos-100': '100% 100%'
+      }
+    }
   },
-  plugins: [require('tailwind-scrollbar')],
-};
+  plugins: [require('tailwind-scrollbar')]
+}

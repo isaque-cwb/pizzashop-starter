@@ -1,6 +1,6 @@
 // import components
-import Pizza from './components/Pizza';
-import Banner from './components/Banner';
+import Pizza from './components/Pizza'
+import Banner from './components/Banner'
 
 // pizza data
 const pizzas = [
@@ -17,29 +17,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 2,
@@ -54,29 +54,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 3,
@@ -91,29 +91,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 4,
@@ -128,29 +128,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 5,
@@ -165,29 +165,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 6,
@@ -202,29 +202,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 7,
@@ -239,29 +239,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 8,
@@ -276,29 +276,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 9,
@@ -313,29 +313,29 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
+        price: 2
+      }
+    ]
   },
   {
     id: 10,
@@ -350,32 +350,32 @@ const pizzas = [
       {
         image: '/cherry.png',
         name: 'cherry tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/corn.png',
         name: 'corn',
-        price: 2,
+        price: 2
       },
       {
         image: '/fresh-tomatoes.png',
         name: 'fresh tomatoes',
-        price: 2,
+        price: 2
       },
       {
         image: '/jalapeno.png',
         name: 'jalapeno',
-        price: 2,
+        price: 2
       },
       {
         image: '/parmesan.png',
         name: 'parmesan',
-        price: 2,
-      },
-    ],
-  },
-];
+        price: 2
+      }
+    ]
+  }
+]
 
 export default function Home() {
-  return <section>home</section>;
+  return <section></section>
 }

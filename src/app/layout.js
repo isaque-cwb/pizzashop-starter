@@ -1,8 +1,7 @@
 // css
-import './globals.css';
+import './globals.css'
 
 import { Bangers, Quicksand, Roboto_Condensed } from 'next/font/google'
-
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -21,18 +20,18 @@ const robotoCondensed = Roboto_Condensed({
   weight: ['300', '400', '700']
 })
 
-
-
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className={`
+    <html lang="en">
+      <body
+        className={`
       ${quicksand.variable}
       ${bangers.variable}
       ${robotoCondensed.variable} font-quicksand
-      `}>
+      `}
+      >
         {children}
-        </body>
+      </body>
     </html>
-  );
+  )
 }
