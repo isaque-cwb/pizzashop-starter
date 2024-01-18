@@ -56,12 +56,12 @@ const PizzaDetails = ({ pizza }) => {
       {/* details */}
       <div className="bg-white-100 flex flex-col flex-1">
         <div className=" p-2 text-center lg:text-left ">
-          <div className="flex-1 bg-white overflow-y-scroll h-[26vh] scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-white pr-2">
+          <div className=" bg-white overflow-y-scroll h-[48vh] scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-white pr-2">
             {/* name */}
             <div className="font-semibold">
               <h2 className="capitalize text-3xl mb-1">{pizza.name}</h2>
               {/* size & crust text */}
-              <div className="bg-yellow-200 mb-6 text-lg font-medium">
+              <div className=" mb-6 text-lg font-medium">
                 <span>
                   {size === 'small'
                     ? '25 cm'
@@ -77,7 +77,7 @@ const PizzaDetails = ({ pizza }) => {
             {/* size selection */}
             <SizeSelection pizza={pizza} size={size} setSize={setSize} />
             {/* crust selection */}
-            <CrustSelection />
+            <CrustSelection crust={crust} setCrust={setCrust} />
             {/* toppings */}
             <div>Choose topping</div>
             {/* topping list */}
@@ -88,7 +88,7 @@ const PizzaDetails = ({ pizza }) => {
             </div>
           </div>
           {/* add to cart btn */}
-          <div className="h-full flex items-center px-2 ">
+          <div className="h-full mt-12 lg:mt-8 items-center px-2 ">
             <button className="btn btn-lg gradient w-full flex justify-center gap-x-2">
               <div>Add to cart for</div>
               <div>$ {price}</div>
