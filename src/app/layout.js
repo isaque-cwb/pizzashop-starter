@@ -3,6 +3,8 @@ import './globals.css'
 
 import { Bangers, Quicksand, Roboto_Condensed } from 'next/font/google'
 
+import Nav from './components/Nav'
+
 const quicksand = Quicksand({
   subsets: ['latin'],
   variable: '--font-quicksand'
@@ -30,6 +32,7 @@ export default function RootLayout({ children }) {
       ${robotoCondensed.variable} font-quicksand
       `}
       >
+        <Nav />
         {children}
       </body>
     </html>

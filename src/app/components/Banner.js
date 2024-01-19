@@ -14,11 +14,11 @@ const Banner = () => {
           globalFactorX={0.4}
           globalFactorY={0.3}
           resetOnLeave
-          className="w-full flex flex-col lg:flex-row justify-between items-center px-10"
+          className="w-full flex flex-col lg:flex-row justify-between items-center px-10 "
         >
           {/* text */}
           <MouseParallaxChild factorX={0.1} factorY={0.2}>
-            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6 text-white drop-shadow-md ">
+            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-2 text-white drop-shadow-md  w-[600px] ">
               <div className="flex-1">
                 <div className="font-bangers text-[32px] text-white uppercase tracking-[0.03em]">
                   Best pizza in town
@@ -32,7 +32,7 @@ const Banner = () => {
           {/* images */}
           <MouseParallaxChild factorX={0.2} factorY={0.3} className="relative">
             {/* pizza image */}
-            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6">
+            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6 ">
               <div className="flex-1 flex justify-end max-w-sm lg:max-w-max">
                 <Image
                   src={'/pizza-banner.png'}
