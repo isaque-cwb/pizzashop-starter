@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 const SizeSelection = ({ pizza, size, setSize }) => {
-  console.log(pizza)
   return (
     <div className=" mx-auto max-w-sm  lg:max-w-none flex items-center justify-center lg:justify-start">
       <div className="flex gap-x-12 items-baseline mb-10">

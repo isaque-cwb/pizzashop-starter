@@ -13,6 +13,7 @@ const PizzaDetails = ({ pizza }) => {
   const [additionalToppingPrice, setAdditionalToppingPrice] = useState(0)
   const [price, setPrice] = useState(0)
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     size === 'small'
       ? setPrice(parseFloat(pizza.priceSm + additionalToppingPrice).toFixed(2))
@@ -79,11 +80,18 @@ const PizzaDetails = ({ pizza }) => {
             {/* crust selection */}
             <CrustSelection crust={crust} setCrust={setCrust} />
             {/* toppings */}
-            <div>Choose topping</div>
+            <div className="mb-4 text-xl font-semibold">Choose topping</div>
             {/* topping list */}
-            <div>
+            <div className="flex flex-1 flex-wrap gap-2 py-1 justify-center lg:justify-start">
               {pizza.toppings?.map((topping, index) => {
-                return <Topping key={index} />
+                return (
+                  <Topping
+                    key={index}
+                    topping={topping}
+                    additionalTopping={additionalTopping}
+                    setAdditionalTopping={setAdditionalTopping}
+                  />
+                )
               })}
             </div>
           </div>
